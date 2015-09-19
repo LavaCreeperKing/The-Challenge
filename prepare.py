@@ -5,7 +5,7 @@ import tools
 pygame.init()
 os.environ['SDL_VIDEO_WINDOW_POS'] = '{},{}'.format(300,55)
 CAPTION = 'The Challenge!'
-SCREENSIZE = (800,640)
+SCREENSIZE = (640,640)
 SCREEN = pygame.display.set_mode(SCREENSIZE)
 FONTS = tools.load_all_fonts(os.path.join("resources", "fonts"))
 MUSIC = tools.load_all_music(os.path.join("resources", "music"))

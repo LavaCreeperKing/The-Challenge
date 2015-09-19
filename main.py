@@ -9,7 +9,7 @@ class Game:
         self.bg_rect = self.bg.get_rect()
         self.btn_sound = prepare.SFX['ButtonSound']
         self.bg_music = pygame.mixer.music.load(prepare.MUSIC['musicC'])
-        pygame.mixer.music.set_volume(.1)
+        pygame.mixer.music.set_volume(.6)
         pygame.mixer.music.play()
         
     def get_event(self, event):
